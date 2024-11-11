@@ -70,7 +70,9 @@ int main() {
     printf("Número de pontos Turísticos2: %d\n",pontost2);
     printf("PIB2: %f\n",pib2);
 
-    
+    printf("População1 > população2: %d\n",populacao >= populacao2);
+    printf("Pib1 < Pib2: %d\n",pib <= pib2);
+    printf("Pontos turisticos1 < pontos turisticos2: %d\n",pontost <= pontost2);
 
 
     return 0;
