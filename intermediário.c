@@ -56,7 +56,23 @@ int main(){
     pibperc2 =  (float) pib2 /populacao2;
     densidade2 = (float) populacao2 / area2;
 
+    printf("Nome1: %s\n",nome);
+    printf("Código1: %d\n",codigo);
+    printf("Área1: %f\n",area);
+    printf("População1: %d\n",populacao);
+    printf("Número de pontos Turísticos1: %d\n",pontost);
+    printf("PIB1: %f\n",pib);
+    printf("Pib per capta: %2.f\n", pibperc1);
+    printf("Densidade Populacional: %2.f",densidade1);
 
-
+    printf("Nome2: %s\n",nome2); 
+    printf("Código2: %d\n",codigo2); 
+    printf("Área2: %2.ff\n",area2);
+    printf("População2: %d\n",populacao2);
+    printf("Número de pontos Turísticos2: %d\n",pontost2);
+    printf("PIB2: %2.f\n",pib2);
+    printf("Pib per capta: %2.f\n",pibperc2);
+    printf("Densidade Populacional: %2.f\n",densidade2);
+   
     return 0;
 }

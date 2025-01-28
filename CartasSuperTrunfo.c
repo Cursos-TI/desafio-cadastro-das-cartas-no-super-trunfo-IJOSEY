@@ -58,17 +58,17 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("Nome1: %s\n",nome);
     printf("Código1: %d\n",codigo);
-    printf("Área1: %f\n",area);
+    printf("Área1: %2.ff\n",area);
     printf("População1: %d\n",populacao);
     printf("Número de pontos Turísticos1: %d\n",pontost);
-    printf("PIB1: %f\n",pib);
+    printf("PIB1: %2.f\n",pib);
 
     printf("Nome2: %s\n",nome2); 
     printf("Código2: %d\n",codigo2); 
-    printf("Área2: %f\n",area2);
+    printf("Área2: %2.f\n",area2);
     printf("População2: %d\n",populacao2);
     printf("Número de pontos Turísticos2: %d\n",pontost2);
-    printf("PIB2: %f\n",pib2);
+    printf("PIB2: %2.f\n",pib2);
 
     
 
